@@ -227,6 +227,8 @@ namespace uuv_simulator_ros
     private: geometry_msgs::TransformStamped nedTransform;
 
     private: tf2_ros::TransformBroadcaster tfBroadcaster;
+
+    private: bool publishedTransform = false;
   };
 }
 
